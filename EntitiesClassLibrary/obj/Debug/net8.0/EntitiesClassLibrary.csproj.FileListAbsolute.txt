@@ -1,0 +1,15 @@
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\bin\Debug\net8.0\EntitiesClassLibrary.deps.json
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\bin\Debug\net8.0\EntitiesClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\bin\Debug\net8.0\EntitiesClassLibrary.pdb
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\bin\Debug\net8.0\InventoryClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\bin\Debug\net8.0\InventoryClassLibrary.pdb
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.csproj.AssemblyReference.cache
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.AssemblyInfoInputs.cache
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.AssemblyInfo.cs
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\Entities.AD7CF59C.Up2Date
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\refint\EntitiesClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\EntitiesClassLibrary.pdb
+C:\Users\paket8d\source\repos\ZooSD\EntitiesClassLibrary\obj\Debug\net8.0\ref\EntitiesClassLibrary.dll

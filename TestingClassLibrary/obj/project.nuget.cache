@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CLGLeCwtmCs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\TestingClassLibrary\\TestingClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paket8d\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "C:\\Users\\paket8d\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\paket8d\\.nuget\\packages\\spectre.console\\0.52.0\\spectre.console.0.52.0.nupkg.sha512"
+  ],
+  "logs": []
+}

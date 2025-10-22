@@ -1,0 +1,300 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Extensions.DependencyInjection/9.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.10"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Spectre.Console/0.52.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "EntitiesClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "InventoryClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EntitiesClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntitiesClassLibrary.dll": {}
+        }
+      },
+      "InventoryClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/InventoryClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryClassLibrary.dll": {}
+        }
+      },
+      "ZooClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EntitiesClassLibrary": "1.0.0",
+          "InventoryClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZooClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooClassLibrary.dll": {}
+        }
+      },
+      "ZooSD/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EntitiesClassLibrary": "1.0.0",
+          "InventoryClassLibrary": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.10",
+          "Spectre.Console": "0.52.0",
+          "ZooClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZooSD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooSD.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/9.0.10": {
+      "sha512": "iEtXCkNd5XhjNJAOb/wO4IhDRdLIE2CsPxZggZQWJ/q2+sa8dmEPC393nnsiqdH8/4KV8Xn25IzgKPR1UEQ0og==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/9.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.10": {
+      "sha512": "r9waLiOPe9ZF1PvzUT+RDoHvpMmY8MW+lb4lqjYGObwKpnyPMLI3odVvlmshwuZcdoHynsGWOrCPA0hxZ63lIA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Spectre.Console/0.52.0": {
+      "sha512": "bVe6b8mizSB4QAlfvKGWHIZbzpxtkCnK6taFUgrxbzPseiBNENi/36RTnKwqPJCHPimU5QG2vK6jd+JASQDugg==",
+      "type": "package",
+      "path": "spectre.console/0.52.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/net9.0/Spectre.Console.dll",
+        "lib/net9.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "logo.png",
+        "spectre.console.0.52.0.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
+    "EntitiesClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../EntitiesClassLibrary/EntitiesClassLibrary.csproj",
+      "msbuildProject": "../EntitiesClassLibrary/EntitiesClassLibrary.csproj"
+    },
+    "InventoryClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../InventoryClassLibrary/InventoryClassLibrary.csproj",
+      "msbuildProject": "../InventoryClassLibrary/InventoryClassLibrary.csproj"
+    },
+    "ZooClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ZooClassLibrary/ZooClassLibrary.csproj",
+      "msbuildProject": "../ZooClassLibrary/ZooClassLibrary.csproj"
+    },
+    "ZooSD/1.0.0": {
+      "type": "project",
+      "path": "../ZooSD/ZooSD.csproj",
+      "msbuildProject": "../ZooSD/ZooSD.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "EntitiesClassLibrary >= 1.0.0",
+      "InventoryClassLibrary >= 1.0.0",
+      "ZooClassLibrary >= 1.0.0",
+      "ZooSD >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\paket8d\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\TestingClassLibrary\\TestingClassLibrary.csproj",
+      "projectName": "TestingClassLibrary",
+      "projectPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\TestingClassLibrary\\TestingClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\paket8d\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\TestingClassLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\paket8d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\paket8d\\source\\repos\\ZooSD\\EntitiesClassLibrary\\EntitiesClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\EntitiesClassLibrary\\EntitiesClassLibrary.csproj"
+            },
+            "C:\\Users\\paket8d\\source\\repos\\ZooSD\\InventoryClassLibrary\\InventoryClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\InventoryClassLibrary\\InventoryClassLibrary.csproj"
+            },
+            "C:\\Users\\paket8d\\source\\repos\\ZooSD\\ZooClassLibrary\\ZooClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\ZooClassLibrary\\ZooClassLibrary.csproj"
+            },
+            "C:\\Users\\paket8d\\source\\repos\\ZooSD\\ZooSD\\ZooSD.csproj": {
+              "projectPath": "C:\\Users\\paket8d\\source\\repos\\ZooSD\\ZooSD\\ZooSD.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

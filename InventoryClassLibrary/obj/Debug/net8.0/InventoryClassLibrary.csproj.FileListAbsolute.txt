@@ -1,0 +1,11 @@
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\bin\Debug\net8.0\InventoryClassLibrary.deps.json
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\bin\Debug\net8.0\InventoryClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\bin\Debug\net8.0\InventoryClassLibrary.pdb
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.AssemblyInfoInputs.cache
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.AssemblyInfo.cs
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\refint\InventoryClassLibrary.dll
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\InventoryClassLibrary.pdb
+C:\Users\paket8d\source\repos\ZooSD\InventoryClassLibrary\obj\Debug\net8.0\ref\InventoryClassLibrary.dll
