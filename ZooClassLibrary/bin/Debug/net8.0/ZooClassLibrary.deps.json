@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ZooClassLibrary/1.0.0": {
+        "dependencies": {
+          "EntitiesClassLibrary": "1.0.0",
+          "InventoryClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ZooClassLibrary.dll": {}
+        }
+      },
+      "EntitiesClassLibrary/1.0.0": {
+        "dependencies": {
+          "InventoryClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "EntitiesClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InventoryClassLibrary/1.0.0": {
+        "runtime": {
+          "InventoryClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZooClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntitiesClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
